@@ -1,8 +1,14 @@
-import { StyleSheet, PixelRatio } from 'react-native'
-import { getHeightPercent } from './ratio'
+import { StyleSheet, PixelRatio } from 'react-native';
+import { getHeightPercent } from './ratio';
+import { Colors } from '../../../src/constants/variables';
 
 export default StyleSheet.create({
-  container: {},
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 10
+  },
   modalContainer: {
     backgroundColor: 'white',
     flex: 1
@@ -25,6 +31,7 @@ export default StyleSheet.create({
     marginLeft: '15%'
   },
   touchFlag: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     height: 19
@@ -99,4 +106,4 @@ export default StyleSheet.create({
     width: 24,
     resizeMode: 'contain'
   }
-})
+});
