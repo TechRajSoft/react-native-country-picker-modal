@@ -25,7 +25,7 @@
 ## Installation
 
 ```bash
-$ yarn add react-native-country-picker-modal
+$ yarn add TechRajSoft/react-native-country-picker-modal
 ```
 
 ## Basic Usage
